@@ -1,0 +1,63 @@
+body {
+                min-height: 100%;
+                background-color: whitesmoke;
+                overflow-x: hidden;
+            }
+
+            .Header {
+                width: 100%;
+                left: 0;
+                padding: 8px 0;
+                background-color: #265195;
+                border: 1px black solid;
+                text-align: center;
+            }
+            .Header img {
+                display: inline;
+            }
+
+            .Lesson {
+                width: 80%;
+                margin-left: 10%;
+                padding: 16px;
+            }
+
+            .Pages {
+                position: relative;
+            }
+
+            .Buttons {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                padding: 32px;
+                text-align: center;
+            }
+
+            /* Animation definitions */
+            @keyframes oldPage {
+                from {opacity: 1;}
+                to {opacity: 0;}
+            }
+            @-webkit-keyframes oldPage {
+                from {opacity: 1;}
+                to {opacity: 0;}
+            }
+
+            @keyframes newPageRight {
+                from {transform: translate(500%);}
+                to {transform: translate(0);}
+            }
+            @-webkit-keyframes newPageRight {
+                from {transform: translate(500%);}
+                to {transform: translate(0);}
+            }
+
+            @keyframes newPageLeft {
+                from {transform: translate(-250%);}
+                to {transform: translate(0);}
+            }
+            @-webkit-keyframes newPageLeft {
+                from {transform: translate(-250%);}
+                to {transform: translate(0);}
+            }
