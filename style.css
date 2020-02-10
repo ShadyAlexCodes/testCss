@@ -1,4 +1,7 @@
+        @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+        /*------------- #UI-BLOCK --------------*/
 body {
+              font-family: 'Montserrat', sans-serif;
                 min-height: 100%;
                 background-color: whitesmoke;
                 overflow-x: hidden;
@@ -43,10 +46,9 @@ body {
                 from {transform: translate(-250%);}
                 to {transform: translate(0);}
             }
-        @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-        /*------------- #UI-BLOCK --------------*/
+
         .ui-block {
-            font-family: 'Montserrat', sans-serif;
+
             background-color: #fff;
             border-radius: 5px;
             border: 1px solid #e6ecf5;
