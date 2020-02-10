@@ -180,6 +180,7 @@
      color: #fff;
      font-size: 8px;
      text-transform: uppercase;
+     text-decoration: none;
      margin-bottom: 20px;
 }
  .post-category.bg-transparent {
@@ -187,6 +188,7 @@
      color: #0062CC;
      padding: 0;
      font-size: 10px;
+     text-decoration: none;
 }
  .post-category.bg-transparent:hover {
      color: #0062CC;
